@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Login Registration</string>
+
+    <string-array name="busList">
+        <item>Choose Bus</item>
+        <item>Bus 1</item>
+        <item>Bus 2</item>
+        <item>Bus 3</item>
+        <item>Bus 4</item>
+        <item>Bus 5</item>
+
+    </string-array>
+    <string-array name="pickupPoint">
+        <item>Choose Pickup Point</item>
+        <item>Dhanmondi 15</item>
+        <item>Shankar </item>
+        <item>Mohammadpur</item>
+        <item>Asadgate</item>
+        <item>Firmgate</item>
+
+    </string-array>
+    <string-array name="reminderPoint">
+        <item>Choose Reminder Point</item>
+        <item>Dhanmondi 15</item>
+        <item>Shankar </item>
+        <item>Mohammadpur</item>
+        <item>Asadgate</item>
+        <item>Firmgate</item>
+
+    </string-array>
+</resources>
