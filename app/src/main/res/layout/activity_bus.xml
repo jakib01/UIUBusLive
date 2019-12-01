@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="117dp"
+        android:layout_marginRight="117dp"
+        app:srcCompat="@drawable/logo3" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="200dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+
+        <Spinner
+            android:id="@+id/spinnerBus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false"
+            android:textColor="#FE5295"
+            android:background="@drawable/edit_text_top"
+            android:textSize="17sp"
+            android:padding="15dp"
+            android:entries="@array/busList" />
+        <Spinner
+            android:id="@+id/spinnerPickup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false"
+            android:textColor="#FE5295"
+            android:background="@drawable/edit_text_top"
+            android:textSize="17sp"
+            android:padding="15dp"
+            android:entries="@array/pickupPoint" />
+        <Spinner
+            android:id="@+id/spinnerReminder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false"
+            android:textColor="#FE5295"
+            android:background="@drawable/edit_text_top"
+            android:textSize="17sp"
+            android:padding="15dp"
+            android:entries="@array/reminderPoint" />
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="SAVE"
+            android:textAllCaps="false"
+            android:textColor="#FE5295"
+            android:textSize="17sp"/>
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

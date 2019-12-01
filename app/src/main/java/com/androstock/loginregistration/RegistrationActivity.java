@@ -6,11 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
-/*
-    Created By
-    Ferdousur Rahman Sarker
-    www.androstock.com
-*/
 
 public class RegistrationActivity extends AppCompatActivity {
 
