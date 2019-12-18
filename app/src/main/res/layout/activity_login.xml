@@ -39,6 +39,7 @@
         <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+            android:id="@+id/log_email"
         android:background="@drawable/edit_text_top"
         android:hint="Username"
         android:inputType="textPersonName"
@@ -47,6 +48,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/log_password"
             android:background="@drawable/edit_text_bottom"
             android:hint="Password"
             android:inputType="textPassword"
@@ -78,7 +80,8 @@
             android:textColor="#FAD0E1"
             android:fontFamily="sans-serif"/>
 
-
     </LinearLayout>
+
+
 
 </RelativeLayout>

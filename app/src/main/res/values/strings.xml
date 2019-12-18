@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Login Registration</string>
+    <string name="app_name">UIU Bus Live</string>
 
     <string-array name="busList">
         <item>Choose Bus</item>
@@ -28,4 +28,5 @@
         <item>Firmgate</item>
 
     </string-array>
+    <string name="title_activity_maps">Map</string>
 </resources>

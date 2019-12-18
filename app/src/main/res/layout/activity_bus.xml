@@ -32,16 +32,23 @@
         android:gravity="center">
 
         <Spinner
-            android:id="@+id/spinnerBus"
+            android:id="@+id/spinnerRoutes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:textAllCaps="false"
             android:textColor="#FE5295"
             android:background="@drawable/edit_text_top"
-            android:textSize="17sp"
-            android:padding="15dp"
-            android:entries="@array/busList" />
+            android:textSize="17sp" />
+        <Spinner
+            android:id="@+id/spinnerBuses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false"
+            android:textColor="#FE5295"
+            android:background="@drawable/edit_text_top"
+            android:textSize="17sp" />
         <Spinner
             android:id="@+id/spinnerPickup"
             android:layout_width="match_parent"
@@ -50,9 +57,7 @@
             android:textAllCaps="false"
             android:textColor="#FE5295"
             android:background="@drawable/edit_text_top"
-            android:textSize="17sp"
-            android:padding="15dp"
-            android:entries="@array/pickupPoint" />
+            android:textSize="17sp" />
         <Spinner
             android:id="@+id/spinnerReminder"
             android:layout_width="match_parent"
@@ -61,9 +66,7 @@
             android:textAllCaps="false"
             android:textColor="#FE5295"
             android:background="@drawable/edit_text_top"
-            android:textSize="17sp"
-            android:padding="15dp"
-            android:entries="@array/reminderPoint" />
+            android:textSize="17sp" />
 
 
 
@@ -71,6 +74,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:id="@+id/move_to_map"
             android:background="@drawable/button"
             android:foreground="?android:attr/selectableItemBackground"
             android:text="SAVE"

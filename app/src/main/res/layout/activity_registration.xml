@@ -38,6 +38,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/reg_username"
             android:background="@drawable/edit_text_top"
             android:hint="Username"
             android:inputType="textPersonName"
@@ -46,6 +47,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/reg_email"
             android:background="@drawable/edit_text_middle"
             android:hint="Email"
             android:inputType="textEmailAddress"
@@ -54,6 +56,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/reg_password"
             android:background="@drawable/edit_text_middle"
             android:hint="Password"
             android:inputType="textPassword"
@@ -64,6 +67,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/reg_btn"
             android:layout_marginTop="10dp"
             android:background="@drawable/button"
             android:foreground="?android:attr/selectableItemBackground"
